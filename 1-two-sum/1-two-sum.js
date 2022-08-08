@@ -8,19 +8,15 @@ var twoSum = function(nums, target) {
     let j = 1;
     while(true) {
          if(nums[i] + nums[j] === target) {
-           return [i, j];
+             break;
        } else {
-        if(nums[i] + nums[j] !== target) {
-            j++
-                if(nums[i] + nums[j] === target) {
-                return [i, j];
-            }
-        }
-        
-        if(j === nums.length - 1) {
+           if(j === nums.length - 1) {
             i++
             j = i + 1;
+        } else {
+            j++
         }
        }
     }
+    return [i, j];
 };
