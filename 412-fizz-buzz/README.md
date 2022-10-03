@@ -9,15 +9,15 @@
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
-<pre style="position: relative;"><strong>Input:</strong> n = 3
+<pre><strong>Input:</strong> n = 3
 <strong>Output:</strong> ["1","2","Fizz"]
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre><p><strong>Example 2:</strong></p>
-<pre style="position: relative;"><strong>Input:</strong> n = 5
+</pre><p><strong>Example 2:</strong></p>
+<pre><strong>Input:</strong> n = 5
 <strong>Output:</strong> ["1","2","Fizz","4","Buzz"]
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre><p><strong>Example 3:</strong></p>
-<pre style="position: relative;"><strong>Input:</strong> n = 15
+</pre><p><strong>Example 3:</strong></p>
+<pre><strong>Input:</strong> n = 15
 <strong>Output:</strong> ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
