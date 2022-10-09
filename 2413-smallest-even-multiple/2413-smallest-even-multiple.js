@@ -6,7 +6,6 @@ var smallestEvenMultiple = function(n) {
   let num = n * 2;
   if (n % 2 === 0) {
     return n;
-  } else {
-    return num;
-  }
+  } 
+  return num;
 };
