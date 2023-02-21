@@ -14,5 +14,6 @@ var differenceOfSum = function(nums) {
     for(let j = 0; j < digitValue.length; j++) {
         digitSum += Number(digitValue[j]);
     }
+    
     return Math.abs(elementSum - digitSum);
 };
