@@ -5,6 +5,6 @@
  */
 var truncateSentence = function(s, k) {
     let strArray = s.split(" ");
-    let test = strArray.slice(0, k);
-    return test.join(" ")
+    let truncateStr = strArray.slice(0, k);
+    return truncateStr.join(" ");
 };
