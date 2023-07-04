@@ -3,12 +3,12 @@
  * @return {boolean}
  */
 var checkIfExist = function(arr) {
+  let obj = {};
+
   for (let i = 0; i < arr.length; i++) {
-    for (let j = 0; j < arr.length; j++) {
-      if (arr[i] === 2 * arr[j] && i !== j) {
-        return true;
-      }
+      if(obj[arr[i]] !== undefined) return true
+      obj[arr[i] / 2] = arr[i]
+      obj[arr[i] * 2] = arr[i]
     }
-  }
-  return false;
+  return false
 };
