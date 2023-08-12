@@ -3,15 +3,18 @@
  * @return {number}
  */
 var maximumNumberOfStringPairs = function(words) {
+  const map = new Map();  
   let count = 0;
 
-  for (let i = 0; i < words.length; i++) {
-    let word = words[i];
-    for (let j = i + 1; j < words.length; j++) {
-      let reverseWord = words[j][1] + words[j][0];
+  for (const word of words) {
+    const reverseWord = word[1] + word[0];
 
-      if (word === reverseWord) count++;
+    if (map.has(reverseWord)) {
+      count += map.get(reverseWord);
     }
+
+    map.set(word, (map.get(word) || 0) + 1);
   }
+
   return count;
 };
