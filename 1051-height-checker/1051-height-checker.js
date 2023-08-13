@@ -10,5 +10,5 @@ var heightChecker = function(heights) {
     for(let i = 0; i < heights.length; i++) {
         if(heights[i] !== expected[i]) count++
     }
-    return count
+    return count;
 };
