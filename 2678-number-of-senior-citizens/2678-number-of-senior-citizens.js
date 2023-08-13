@@ -5,8 +5,8 @@
 var countSeniors = function(details) {
   let count = 0;
 
-  for (let i = 0; i < details.length; i++) {
-    let age = details[i][11] + details[i][12];
+  for (const detail of details) {
+    let age = detail.slice(11, 13);
 
     if (age > 60) count++;
   }
