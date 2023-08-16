@@ -3,7 +3,7 @@
  * @return {number[]}
  */
 var findDuplicates = function(nums) {
-    const duplicateNum = new Map();
+    const duplicateNum = {};
     const results = [];
     
   for(const num of nums) {
