@@ -3,18 +3,16 @@
  * @return {number[]}
  */
 var findDuplicates = function(nums) {
-    const duplicateNum = {};
-    const results = [];
+  const results = [];
+
+  for (const num of nums) {
+    const index = Math.abs(num) - 1;
     
-  for(const num of nums) {
-      duplicateNum[num] = (duplicateNum[num] || 0) + 1;
+    if(nums[index] > 0) {
+      nums[index] = nums[index] * (-1)
+    } else {
+      results.push(Math.abs(num))
+    }
   }
-    
-  for(const key in duplicateNum) {
-      if(duplicateNum[key] > 1) {
-          results.push(key);
-      }
-  }
-    
-    return results;
+  return results
 };
