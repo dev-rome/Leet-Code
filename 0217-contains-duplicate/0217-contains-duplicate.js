@@ -3,19 +3,11 @@
  * @return {boolean}
  */
 var containsDuplicate = function(nums) {
-    // let num = new Set(nums)
-    // if(nums.length !== num.size) {
-    //     return true
-    // }
-    // return false
-    
-    let obj = {}
-    for(const num of nums) {
-        obj[num] = (obj[num] || 0) + 1
+    let map = {};
+    for(let i = 0; i < nums.length; i++) {
+       map[nums[i]] = (map[nums[i]] || 0) + 1;
+        
+        if(map[nums[i]] >= 2) return true;
     }
-    
-    for(const key in obj) {
-        if(obj[key] > 1) return true
-    }
-    return false
+    return false;
 };
