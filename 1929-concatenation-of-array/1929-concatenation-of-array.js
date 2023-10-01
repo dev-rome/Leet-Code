@@ -4,9 +4,8 @@
  */
 var getConcatenation = function(nums) {
     let arr = [];
-    for(let i = 0; i < nums.length; i++) {
-        arr[i] = nums[i];
-        arr[i + nums.length] = nums[i];
+    for(let i = 0; i < nums.length * 2; i++) {
+        arr.push(nums[i % nums.length])
     }
     return arr;
 };
