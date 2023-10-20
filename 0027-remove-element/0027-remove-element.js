@@ -4,15 +4,15 @@
  * @return {number}
  */
 var removeElement = function(nums, val) {
+    const len = nums.length;
     let i = 0;
-    let j = nums.length - 1;
-    while(i <= j) {
-        if(nums[i] === val) {
-            nums[i] = nums[j];
-            j--
+    while (i < len) {
+        if (nums[i] === val) {
+            nums.splice(i, 1);
+            i--;
         } else {
-            i++
+            i++;
         }
     }
-    return i
+    return len;
 };
