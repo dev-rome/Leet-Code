@@ -4,11 +4,7 @@
  */
 var countPoints = function(rings) {
     let obj = new Map();
-    let count = 0;
-    let b = true;
-    let g = true;
-    let r = true;
-    
+    let count = 0;    
     for(let i = 0; i < rings.length; i += 2) {
         if(!obj.has(rings[i + 1])) {
             obj.set(rings[i + 1], [rings[i]]);
