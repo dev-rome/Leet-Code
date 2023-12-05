@@ -7,7 +7,7 @@ var destCity = function(paths) {
     for(const [city, des] of paths) {
         cityMap.set(city, des);
     }
-    for(const value of cityMap.values()) {
-        if(!cityMap.has(value)) return value;
+    for(const [city, des] of cityMap) {
+        if(!cityMap.has(des)) return des;
     }
 };
