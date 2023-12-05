@@ -12,6 +12,6 @@ var repeatedNTimes = function(nums) {
         }
     }
     for(const [key, value] of numMap.entries()) {
-        if(nums.length / 2 === value) return key;
+        if(value >= 2) return key;
     }
 };
