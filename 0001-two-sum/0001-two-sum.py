@@ -6,5 +6,4 @@ class Solution(object):
             if output in dict_num:
                 return [dict_num[output], index]
             dict_num[value] = index
-        print(dict_num)
         
