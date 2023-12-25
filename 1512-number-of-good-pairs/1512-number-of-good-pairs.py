@@ -4,9 +4,9 @@ class Solution:
         freq_count = {}
         for num in nums:
             if num in freq_count:
-                freq_count[num] += 1
                 count += freq_count[num]
+                freq_count[num] += 1
             else:
-                freq_count[num] = 0
+                freq_count[num] = 1
         return count
             
