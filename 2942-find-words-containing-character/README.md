@@ -7,24 +7,24 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> words = ["leet","code"], x = "e"
+<pre><strong>Input:</strong> words = ["leet","code"], x = "e"
 <strong>Output:</strong> [0,1]
 <strong>Explanation:</strong> "e" occurs in both words: "l<strong><u>ee</u></strong>t", and "cod<u><strong>e</strong></u>". Hence, we return indices 0 and 1.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> words = ["abc","bcd","aaaa","cbc"], x = "a"
+<pre><strong>Input:</strong> words = ["abc","bcd","aaaa","cbc"], x = "a"
 <strong>Output:</strong> [0,2]
 <strong>Explanation:</strong> "a" occurs in "<strong><u>a</u></strong>bc", and "<u><strong>aaaa</strong></u>". Hence, we return indices 0 and 2.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> words = ["abc","bcd","aaaa","cbc"], x = "z"
+<pre><strong>Input:</strong> words = ["abc","bcd","aaaa","cbc"], x = "z"
 <strong>Output:</strong> []
 <strong>Explanation:</strong> "z" does not occur in any of the words. Hence, we return an empty array.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
