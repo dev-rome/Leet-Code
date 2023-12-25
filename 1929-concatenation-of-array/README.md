@@ -5,22 +5,22 @@
 <p>Return <em>the array </em><code>ans</code>.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> nums = [1,2,1]
+<pre><strong>Input:</strong> nums = [1,2,1]
 <strong>Output:</strong> [1,2,1,1,2,1]
 <strong>Explanation:</strong> The array ans is formed as follows:
 - ans = [nums[0],nums[1],nums[2],nums[0],nums[1],nums[2]]
-- ans = [1,2,1,1,2,1]<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+- ans = [1,2,1,1,2,1]</pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> nums = [1,3,2,1]
+<pre><strong>Input:</strong> nums = [1,3,2,1]
 <strong>Output:</strong> [1,3,2,1,1,3,2,1]
 <strong>Explanation:</strong> The array ans is formed as follows:
 - ans = [nums[0],nums[1],nums[2],nums[3],nums[0],nums[1],nums[2],nums[3]]
 - ans = [1,3,2,1,1,3,2,1]
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
