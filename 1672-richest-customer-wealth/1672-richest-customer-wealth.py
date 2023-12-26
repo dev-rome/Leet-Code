@@ -3,10 +3,7 @@ class Solution:
         max_wealth = 0
         
         for account in accounts:
-            current_wealth = 0
             current_wealth = sum(account)
-        
-            if current_wealth > max_wealth:
-                max_wealth = current_wealth
+            max_wealth = max(max_wealth, current_wealth)
             
         return max_wealth
