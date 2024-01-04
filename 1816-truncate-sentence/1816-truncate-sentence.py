@@ -1,5 +1,5 @@
 class Solution:
     def truncateSentence(self, s: str, k: int) -> str:
-        s_arr = s.split()
-        slice_arr = s_arr[:k]
-        return " ".join(slice_arr)
+        words = s.split()
+        slice_sentence = " ".join(words[:k])
+        return slice_sentence
