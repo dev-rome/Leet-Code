@@ -10,31 +10,31 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> nums = [1,2,2,1], k = 1
+<pre style="position: relative;"><strong>Input:</strong> nums = [1,2,2,1], k = 1
 <strong>Output:</strong> 4
 <strong>Explanation:</strong> The pairs with an absolute difference of 1 are:
 - [<strong><u>1</u></strong>,<strong><u>2</u></strong>,2,1]
 - [<strong><u>1</u></strong>,2,<strong><u>2</u></strong>,1]
 - [1,<strong><u>2</u></strong>,2,<strong><u>1</u></strong>]
 - [1,2,<strong><u>2</u></strong>,<strong><u>1</u></strong>]
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> nums = [1,3], k = 3
+<pre style="position: relative;"><strong>Input:</strong> nums = [1,3], k = 3
 <strong>Output:</strong> 0
 <strong>Explanation:</strong> There are no pairs with an absolute difference of 3.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>Input:</strong> nums = [3,2,1,5,4], k = 2
+<pre style="position: relative;"><strong>Input:</strong> nums = [3,2,1,5,4], k = 2
 <strong>Output:</strong> 3
 <b>Explanation:</b> The pairs with an absolute difference of 2 are:
 - [<strong><u>3</u></strong>,2,<strong><u>1</u></strong>,5,4]
 - [<strong><u>3</u></strong>,2,1,<strong><u>5</u></strong>,4]
 - [3,<strong><u>2</u></strong>,1,5,<strong><u>4</u></strong>]
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
