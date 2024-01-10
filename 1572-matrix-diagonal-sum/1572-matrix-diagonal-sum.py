@@ -5,7 +5,7 @@ class Solution:
 
         for i in range(n):
             diagonal_sum += mat[i][i]
-            if i != n - 1 - i:
+            if i != n - i - 1:
                 diagonal_sum += mat[i][n - 1 - i]
 
         return diagonal_sum
