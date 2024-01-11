@@ -8,4 +8,5 @@ class Solution:
             for letter in word:
                 str += morse[ord(letter) - ord("a")]
             unique_trans.add(str)
+            
         return len(unique_trans)
