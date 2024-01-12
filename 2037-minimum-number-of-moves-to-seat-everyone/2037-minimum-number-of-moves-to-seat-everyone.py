@@ -4,14 +4,8 @@ class Solution:
         seats.sort()
         students.sort()
         
-        for i in range(len(students)):
-            while students[i] != seats[i]:
-                if students[i] < seats[i]:
-                    students[i] += 1
-                    min_moves += 1
-                else:
-                    students[i] -= 1
-                    min_moves += 1
+        for seat, student in zip(seats, students):
+            min_moves += abs(seat - student)
                     
         return min_moves
             
