@@ -5,14 +5,14 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> paths = [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]
+<pre style="position: relative;"><strong>Input:</strong> paths = [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]
 <strong>Output:</strong> "Sao Paulo" 
 <strong>Explanation:</strong> Starting at "London" city you will reach "Sao Paulo" city which is the destination city. Your trip consist of: "London" -&gt; "New York" -&gt; "Lima" -&gt; "Sao Paulo".
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> paths = [["B","C"],["D","B"],["C","A"]]
+<pre style="position: relative;"><strong>Input:</strong> paths = [["B","C"],["D","B"],["C","A"]]
 <strong>Output:</strong> "A"
 <strong>Explanation:</strong> All possible trips are:&nbsp;
 "D" -&gt; "B" -&gt; "C" -&gt; "A".&nbsp;
@@ -20,13 +20,13 @@
 "C" -&gt; "A".&nbsp;
 "A".&nbsp;
 Clearly the destination city is "A".
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>Input:</strong> paths = [["A","Z"]]
+<pre style="position: relative;"><strong>Input:</strong> paths = [["A","Z"]]
 <strong>Output:</strong> "Z"
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
