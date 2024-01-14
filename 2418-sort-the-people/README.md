@@ -7,17 +7,17 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> names = ["Mary","John","Emma"], heights = [180,165,170]
+<pre style="position: relative;"><strong>Input:</strong> names = ["Mary","John","Emma"], heights = [180,165,170]
 <strong>Output:</strong> ["Mary","Emma","John"]
 <strong>Explanation:</strong> Mary is the tallest, followed by Emma and John.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> names = ["Alice","Bob","Bob"], heights = [155,185,150]
+<pre style="position: relative;"><strong>Input:</strong> names = ["Alice","Bob","Bob"], heights = [155,185,150]
 <strong>Output:</strong> ["Bob","Alice","Bob"]
 <strong>Explanation:</strong> The first Bob is the tallest, followed by Alice and the second Bob.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
