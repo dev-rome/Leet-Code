@@ -10,20 +10,20 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> nums1 = [1,2,3], nums2 = [2,4,6]
+<pre style="position: relative;"><strong>Input:</strong> nums1 = [1,2,3], nums2 = [2,4,6]
 <strong>Output:</strong> [[1,3],[4,6]]
 <strong>Explanation:
 </strong>For nums1, nums1[1] = 2 is present at index 0 of nums2, whereas nums1[0] = 1 and nums1[2] = 3 are not present in nums2. Therefore, answer[0] = [1,3].
-For nums2, nums2[0] = 2 is present at index 1 of nums1, whereas nums2[1] = 4 and nums2[2] = 6 are not present in nums2. Therefore, answer[1] = [4,6].</pre>
+For nums2, nums2[0] = 2 is present at index 1 of nums1, whereas nums2[1] = 4 and nums2[2] = 6 are not present in nums2. Therefore, answer[1] = [4,6].<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> nums1 = [1,2,3,3], nums2 = [1,1,2,2]
+<pre style="position: relative;"><strong>Input:</strong> nums1 = [1,2,3,3], nums2 = [1,1,2,2]
 <strong>Output:</strong> [[3],[]]
 <strong>Explanation:
 </strong>For nums1, nums1[2] and nums1[3] are not present in nums2. Since nums1[2] == nums1[3], their value is only included once and answer[0] = [3].
 Every integer in nums2 is present in nums1. Therefore, answer[1] = [].
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
