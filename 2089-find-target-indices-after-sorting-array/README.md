@@ -5,29 +5,29 @@
 <p>Return <em>a list of the target indices of</em> <code>nums</code> after<em> sorting </em><code>nums</code><em> in <strong>non-decreasing</strong> order</em>. If there are no target indices, return <em>an <strong>empty</strong> list</em>. The returned list must be sorted in <strong>increasing</strong> order.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> nums = [1,2,5,2,3], target = 2
+<pre style="position: relative;"><strong>Input:</strong> nums = [1,2,5,2,3], target = 2
 <strong>Output:</strong> [1,2]
 <strong>Explanation:</strong> After sorting, nums is [1,<u><strong>2</strong></u>,<u><strong>2</strong></u>,3,5].
 The indices where nums[i] == 2 are 1 and 2.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> nums = [1,2,5,2,3], target = 3
+<pre style="position: relative;"><strong>Input:</strong> nums = [1,2,5,2,3], target = 3
 <strong>Output:</strong> [3]
 <strong>Explanation:</strong> After sorting, nums is [1,2,2,<u><strong>3</strong></u>,5].
 The index where nums[i] == 3 is 3.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
-<p><strong>Example 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>Input:</strong> nums = [1,2,5,2,3], target = 5
+<pre style="position: relative;"><strong>Input:</strong> nums = [1,2,5,2,3], target = 5
 <strong>Output:</strong> [4]
 <strong>Explanation:</strong> After sorting, nums is [1,2,2,3,<u><strong>5</strong></u>].
 The index where nums[i] == 5 is 4.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
