@@ -2,29 +2,29 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> nums1 = [1,1,3,2], nums2 = [2,3], nums3 = [3]
+<pre style="position: relative;"><strong>Input:</strong> nums1 = [1,1,3,2], nums2 = [2,3], nums3 = [3]
 <strong>Output:</strong> [3,2]
 <strong>Explanation:</strong> The values that are present in at least two arrays are:
 - 3, in all three arrays.
 - 2, in nums1 and nums2.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> nums1 = [3,1], nums2 = [2,3], nums3 = [1,2]
+<pre style="position: relative;"><strong>Input:</strong> nums1 = [3,1], nums2 = [2,3], nums3 = [1,2]
 <strong>Output:</strong> [2,3,1]
 <strong>Explanation:</strong> The values that are present in at least two arrays are:
 - 2, in nums2 and nums3.
 - 3, in nums1 and nums2.
 - 1, in nums1 and nums3.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>Input:</strong> nums1 = [1,2,2], nums2 = [4,3,3], nums3 = [5]
+<pre style="position: relative;"><strong>Input:</strong> nums1 = [1,2,2], nums2 = [4,3,3], nums3 = [5]
 <strong>Output:</strong> []
 <strong>Explanation:</strong> No value is present in at least two arrays.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
