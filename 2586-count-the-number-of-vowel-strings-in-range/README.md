@@ -7,18 +7,18 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> words = ["are","amy","u"], left = 0, right = 2
+<pre style="position: relative;"><strong>Input:</strong> words = ["are","amy","u"], left = 0, right = 2
 <strong>Output:</strong> 2
 <strong>Explanation:</strong> 
 - "are" is a vowel string because it starts with 'a' and ends with 'e'.
 - "amy" is not a vowel string because it does not end with a vowel.
 - "u" is a vowel string because it starts with 'u' and ends with 'u'.
 The number of vowel strings in the mentioned range is 2.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> words = ["hey","aeo","mu","ooo","artro"], left = 1, right = 4
+<pre style="position: relative;"><strong>Input:</strong> words = ["hey","aeo","mu","ooo","artro"], left = 1, right = 4
 <strong>Output:</strong> 3
 <strong>Explanation:</strong> 
 - "aeo" is a vowel string because it starts with 'a' and ends with 'o'.
@@ -26,7 +26,7 @@ The number of vowel strings in the mentioned range is 2.
 - "ooo" is a vowel string because it starts with 'o' and ends with 'o'.
 - "artro" is a vowel string because it starts with 'a' and ends with 'o'.
 The number of vowel strings in the mentioned range is 3.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
